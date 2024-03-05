@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+
 interface Props {
   title: string;
 }
@@ -23,7 +25,9 @@ const { title } = Astro.props;
     />
   </head>
   <body>
-    <slot />
+    <Header />
+	<h1>Hi there! Im Toby</h1>
+	<h2>Im a Web Developer</h2>
   </body>
 </html>
 <style is:global>
@@ -39,7 +43,7 @@ const { title } = Astro.props;
     );
   }
   html {
-    font-family: Vollkorn, serif;
+    font-family: "Vollkorn", "serif";
     background: #13151a;
     background-size: 224px;
   }
