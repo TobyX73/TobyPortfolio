@@ -1,17 +1,55 @@
 ---
-console.log('aa')
+console.log("aa");
 ---
 
-<main class="mx-auto bg-gray-700 max-h-20 flex justify-between">
-    <div class="w-24 h-24 mxl:block pl-10 py-3.5">
-        <a href="#Home"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Joestar_Birthmark.svg" alt="Joestar Birthmark" class="cursor-pointer hover:scale-125"></img></a>   
+<main>
+  <nav class="md:flex bg-zinc-900 h-28 w-full flex justify-between px-12 py-3 items-center">
+    <div class="w-24 h-24">
+      <a href="#Home">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Joestar_Birthmark.svg"
+          alt="Joestar Birthmark"
+          class="cursor-pointer hover:scale-105"
+        />
+      </a>
     </div>
-    <nav class="max-w-lg flex justify-end self-center">
-        <ul class="flex justify-between text-white mr-28" >
-            <li class="ml-14 hover:text-black"><a href="#Home">Home</a></li>
-            <li class="ml-14 hover:text-black"><a href="#About">About</a></li>
-            <li class="ml-14 hover:text-black"><a href="#Projects">Projects</a></li>
-            <li class="ml-14 hover:text-black"><a href="#Contacts">Contact</a></li>
-        </ul>
-    </nav>
+    <ul class="flex justify-between text-white">
+      <li class="ml-10">
+        <a href="#Home">
+          <button
+            class="relative py-2 px-8 text-black text-base font-bold nded-full overflow-hidden bg-white rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-800 before:to-purple-500 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
+          >
+            Home
+          </button>
+        </a>
+      </li>
+      <li class="ml-10">
+        <a href="#About">
+          <button
+            class="relative py-2 px-8 text-black text-base font-bold rounded-full overflow-hidden bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-800 before:to-purple-500 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
+          >
+            About
+          </button>
+        </a>
+      </li>
+      <li class="ml-10">
+        <a href="#Projects">
+          <button
+            class="relative py-2 px-8 text-black text-base font-bold rounded-full overflow-hidden bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-800 before:to-purple-500 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
+          >
+            Projects
+          </button>
+        </a>
+      </li>
+      <li class="ml-10">
+        <a href="#Contacts">
+          <button
+            class="relative py-2 px-8 text-black text-base font-bold rounded-full overflow-hidden bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-purple-800 before:to-purple-500 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0"
+          >
+            Contact
+          </button>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </main>
